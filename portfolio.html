@@ -20,7 +20,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Custom styles -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
 </head>
 
 
@@ -30,7 +31,7 @@
         <div class="header__site-nav container">
             <a class="logo" href="">Web<span class="logo logo--black">Studio</span></a>
             <nav class="nav">
-                <ul class="nav__list list">
+                <ul class="nav__list">
                     <li>
                     <a href="./index.html" class="link">Студія</a>
                     </li>
@@ -43,14 +44,14 @@
                 </ul>
             </nav>
 
-            <a class="header__mail" href="mailto:fo@devstudio.com">
+            <a class="header__contacts" href="mailto:fo@devstudio.com">
                 <svg class="header__icon" width="16px" height="12px">
                     <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
             </a>
             
-            <a class="header__tel" href="tel:+380961111111">
+            <a class="header__contacts" href="tel:+380961111111">
                 <svg class="header__icon" width="10px" height="16px">
                     <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>
@@ -64,7 +65,7 @@
         <section class="portfolio">
         <div class="container">
             <h1 class="visually-hidden">Важливі кнопки</h1>
-            <ul class="portfolio__list list">
+            <ul class="portfolio__list">
                 <li class="portfolio__item">
                     <button class="portfolio__button portfolio__button--first" type="button">Усі</button>
                 </li>
@@ -81,7 +82,7 @@
                     <button class="portfolio__button" type="button">Маркетинг</button>
                 </li>
             </ul>
-            <ul class="portfolio__gallery list">
+            <ul class="portfolio__gallery">
                 <li class="portfolio__card">
                     <div class="portfolio__card-img">
                         <img src="./images/portfolio/techocryak.jpg" alt="технокряк" width="370" height="294" />
@@ -233,21 +234,23 @@
                 <a class="logo" href="">Web<span class="logo logo--white">Studio</span></a>
             </div>
             <address>
-                <ul class="adress list">
-                    <li class="adress__item"><a class="adress__link" href="https://goo.gl/maps/XQmPCepcNbJXL68EA"
-                            target="_blank" rel="noopener noreffer npfollow">м. Київ,
+                <ul class="footer__list">
+                    <li class="footer__adress-item"><a class="footer__adress-link"
+                            href="https://goo.gl/maps/XQmPCepcNbJXL68EA" target="_blank"
+                            rel="noopener noreffer npfollow">м. Київ,
                             пр-т Лесі Українки, 26</a></li>
-                    <li class="adress__item"><a class="address__mail"
+                    <li class="footer__adress-item"><a class="footer__contacts"
                             href="mailto:fo@devstudio.com">info@devstudio.com</a>
                     </li>
-                    <li class="adress__item"><a class="address__tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="footer__adress-item"><a class="footer__contacts" href="tel:+380961111111">+38 096 111 11
+                            11</a></li>
                 </ul>
             </address>
         </div>
 
         <div class="footer__social">
             <h2 class="footer__section-name">приєднуйтесь</h2>
-            <ul class="footer__social-list list">
+            <ul class="footer__social-list">
                 <li>
                     <a class="footer__icon" href="http://instagram.com" target="_blank" rel="noopener noreferrer"
                         aria-label="інстаграм іконка">
