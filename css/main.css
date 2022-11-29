@@ -128,6 +128,7 @@ p {
 }
 
 .header__site-nav {
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,7 +174,6 @@ p {
 }
 
 .logo {
-  margin-right: 93px;
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -184,26 +184,28 @@ p {
   transition: color 250ms var(--timing-function);
 }
 
-.logo--black {
+.logo .logo--black {
+  margin-right: 93px;
   color: var(--logo-color-black);
   font-family: Raleway, sans-serif;
 }
-.logo--black:hover, .logo--black:focus {
+.logo .logo--black:hover, .logo .logo--black:focus {
   color: var(--accent-color);
 }
 
 .footer__logo {
+  margin-right: 70px;
   margin-bottom: 20px;
   width: 231px;
-  margin-right: 70px;
 }
 
-.logo--white {
+.logo .logo--white {
+  margin-right: 156px;
   color: var(--primary-white-color);
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
-.logo--white:hover, .logo--white:focus {
+.logo .logo--white:hover, .logo .logo--white:focus {
   color: var(--accent-color);
 }
 

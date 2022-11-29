@@ -1,6 +1,4 @@
 .logo {
-    margin-right: 93px;
-
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -11,7 +9,8 @@
     transition: color 250ms var(--timing-function);
 }
 
-.logo--black {
+.logo .logo--black {
+    margin-right: 93px;
     color: var(--logo-color-black);
     font-family: Raleway, sans-serif; 
     
@@ -22,12 +21,13 @@
 }
 
 .footer__logo {
+    margin-right: 70px;
     margin-bottom: 20px;
     width: 231px;
-    margin-right: 70px;
 }
 
-.logo--white {
+.logo .logo--white {
+    margin-right: 156px;
     color: var(--primary-white-color);
     transition: color 250ms var(--timing-function);
 
